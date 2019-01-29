@@ -6,7 +6,7 @@ We are a group of people passionate about the decentralized web and excited to l
 
 
 
-#### It's all about cooperation
+## It's all about cooperation
 
 There is a lot of terms and buzzwords all around. Web 3.0, Tokenized Ecosystem, Decentralized Data Exchange Protocol, 
 Decentralized OS, and others more. 
@@ -22,7 +22,7 @@ So, ...
 </p>
 
  
-#### We like Creative Learning
+## We like Creative Learning
 
 <p align="center">
   <br><br>
