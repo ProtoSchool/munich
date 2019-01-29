@@ -9,6 +9,10 @@ We are a group of people passionate about the decentralized web and excited to l
 Have you heard about [Technical Singularity]()? Interesting idea, but janus-headed, isn't it. What about an unexplainable 
 leap of progress in human cooperation? Why not, we do say.
 
+<p align="center">
+  <br><br>
+  <img src="images/work-for-hcs.png">
+</p>
 
 
 
