@@ -6,16 +6,6 @@ We are a group of people passionate about the decentralized web and excited to l
 
 
 
-Have you heard about [Technical Singularity]()? Interesting idea, but janus-headed, isn't it. What about an unexplainable 
-leap of progress in human cooperation? Why not, we do say.
-
-<p align="center">
-  <br><br>
-  <img src="images/work-for-hcs.png">
-</p>
-
-
-
 #### It's all about cooperation
 
 There is a lot of terms and buzzwords all around. Web 3.0, Tokenized Ecosystem, Decentralized Data Exchange Protocol, 
@@ -25,15 +15,20 @@ It is early in the game. We are all rookies in one way or the others. That's awe
 
 So, ...
 
-
-![cooperation-singularity](images/work-for-hcs.png)
-
-
+<p align="center">
+  <br><br>
+  <img src="images/work-for-hcs.png">
+  <br><br>
+</p>
 
  
 #### We like Creative Learning
 
-![creative_learning](images/learningCreativeLearning.png)
+<p align="center">
+  <br><br>
+  <img src="images/learningCreativeLearning.png">
+  <br><br>
+</p>
 
 - **Imagine**, get an idea of what you want to do, and bring your ideas into the community. If it's the idea for a 
 programm or an app, a topic you want to learn and understand, or something totally different.
