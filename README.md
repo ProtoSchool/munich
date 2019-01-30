@@ -39,7 +39,7 @@ So, no limits to your ideas. Be curious and think big.
 
 ---
 
-BTW: We like [creative learning](https://learn.media.mit.edu/lcl/) like we used to do in the kindergarden 👶
+BTW: We like [creative learning](https://learn.media.mit.edu/lcl/) like we used to do in the kindergarten 👶
 
 <p align="center">
   <br><br>
