@@ -50,7 +50,7 @@ BTW: We like [creative learning](https://learn.media.mit.edu/lcl/) like we used 
 - **Imagine**, get an idea of what you want to do, and bring your ideas into the community. If it's the idea for a 
 program or an app, a topic you want to learn and understand, or something totally different.
 
-- **Create** prototypes, tutorials, or white papers.
+- **Create** prototypes, tutorials, white papers, or what you've had imagined.
 
 - **Play**, alone or in groups, online or offline. Attend workshops or organize one yourself. Take part at hackathons 
 or other challenges.
