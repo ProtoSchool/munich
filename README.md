@@ -30,7 +30,7 @@ So, no limits to your ideas. Be curious and think big.
 
 ---
 
-## How to start
+## What you can do
 
 - start reading the tutorials of [ProtoSchool](https://proto.school)
 - become a member of our [meet-up group](https://www.meetup.com/de-DE/Munich-IPFS-User-Group/)
