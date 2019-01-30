@@ -30,7 +30,7 @@ So, no limits to your ideas. Be curious and think big.
 
 ## What you can do
 
-**First of all, you can look for open issues and comment on them.** 😃😃😃
+**First of all, you can look for [open issues](https://github.com/ProtoSchool/munich/issues) and comment on them.** 😃😃😃
 
 You can as well:
 
