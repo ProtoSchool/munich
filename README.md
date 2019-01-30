@@ -4,16 +4,7 @@ Welcome to the Munich chapter of [ProtoSchool](https://proto.school)!
 
 We are a group of people passionate about the decentralized web and excited to learn, teach, and share ideas. Everyone is welcome!
 
-
-
-## It's all about cooperation
-
-There is a lot of terms and buzzwords all around. Web 3.0, Tokenized Ecosystem, Decentralized Data Exchange Protocol, 
-Decentralized OS, and others more. 
-
-It is early in the game. We are all rookies in one way or the others. That's awesome, if you are curious and creative. 
-
-So, ...
+---
 
 <p align="center">
   <br><br>
@@ -21,8 +12,25 @@ So, ...
   <br><br>
 </p>
 
- 
-## We like Creative Learning
+You probably have heard about [Technical Singularity]()? It is the inspiration to this meme. At the first glance it tells 
+about cooperation of humans, at least to me. In reality, it tells, maybe even more, about a human kind of cooperation 
+with technology and by technology. Quite some disruptive paradigms and technology had shown up the last years 
+followed by ideas what we could do with it.
+
+I one sentence I would say:
+
+_"We are going to overcome the client-server paradigm by having the internet as server and this gives us the chance
+to help cooperation to dominate over manipulation."_ 
+
+---
+
+## How to start
+
+Still, it's early in the game and to wait for the first, or next, if you take Bitcoin as the first, killer app
+does not seem to be adequate regarding to the ongoing technical revolution. 
+
+It is the time for the creative ones. So, no limits to your ideas. Be curious and think big.
+
 
 <p align="center">
   <br><br>
