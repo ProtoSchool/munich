@@ -47,11 +47,12 @@ BTW: We like [creative learning](https://learn.media.mit.edu/lcl/) like we used 
 </p>
 
 - **Imagine**, get an idea of what you want to do, and bring your ideas into the community. If it's the idea for a 
-programm or an app, a topic you want to learn and understand, or something totally different.
+program or an app, a topic you want to learn and understand, or something totally different.
 
 - **Create** prototypes, tutorials, or white papers.
 
-- **Play**, alone or in groups, online or offline. Attend to workshops or organize one yourself. Take part at hackertons or other challenges.
+- **Play**, alone or in groups, online or offline. Attend workshops or organize one yourself. Take part at hackathons 
+or other challenges.
 
 - **Share** what you achieved, give talks about it or write down your experience.
 
