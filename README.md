@@ -32,6 +32,8 @@ So, no limits to your ideas. Be curious and think big.
 
 **First of all, you can look for [open issues](https://github.com/ProtoSchool/munich/issues) and comment on them.** 😃😃😃
 
+**Help wanted 👋👋👋  [Event #1: 101 IPFS Workshop](https://github.com/ProtoSchool/munich/issues/5)** 👋👋👋
+
 You can as well:
 
 - start reading the tutorials of [ProtoSchool](https://proto.school)
