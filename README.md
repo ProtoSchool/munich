@@ -35,6 +35,7 @@ So, no limits to your ideas. Be curious and think big.
 - start reading the tutorials of [ProtoSchool](https://proto.school)
 - become a member of our [meet-up group](https://www.meetup.com/de-DE/Munich-IPFS-User-Group/)
 - discuss your issue on [the IPFS forum](https://discuss.ipfs.io/t/protoschool-munich/4777)
+- open an [new issue](https://github.com/ProtoSchool/munich/issues/new) about it 
 
 ---
 
