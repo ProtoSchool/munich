@@ -32,8 +32,13 @@ So, no limits to your ideas. Be curious and think big.
 
 ## How to start
 
+- start reading the tutorials of [ProtoSchool](https://proto.school)
 - become a member of our [meet-up group](https://www.meetup.com/de-DE/Munich-IPFS-User-Group/)
-- follow us on twitter <i style='font-size:24px' class='fab'>&#xf36b;</i>
+- discuss about your issue on [the IPFS forum](https://discuss.ipfs.io/t/protoschool-munich/4777)
+
+---
+
+BTW: We like [creative learning](https://learn.media.mit.edu/lcl/) like we used to do in the kindergarden 👶
 
 <p align="center">
   <br><br>
@@ -44,13 +49,13 @@ So, no limits to your ideas. Be curious and think big.
 - **Imagine**, get an idea of what you want to do, and bring your ideas into the community. If it's the idea for a 
 programm or an app, a topic you want to learn and understand, or something totally different.
 
-- **Create** prototypes, tutorials, white papers of your idea or of one of the others.
+- **Create** prototypes, tutorials, or white papers.
 
 - **Play**, alone or in groups, online or offline. Attend to workshops or organize one yourself. Take part at hackertons or other challenges.
 
-- **Share** what you achieved, give talks about it or write down your experience. Pitch 
+- **Share** what you achieved, give talks about it or write down your experience.
 
-- **Reflect**, discuss, think about it again with the 
+- **Reflect**, discuss, think about it again with the gained experience.
 
 
 
