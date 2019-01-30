@@ -12,7 +12,7 @@ We are a group of people passionate about the decentralized web and excited to l
   <br><br>
 </p>
 
-You probably have heard about [Technical Singularity]()? It is the inspiration to this meme. At the first glance it tells 
+You probably have heard about [Technical Singularity](https://en.wikipedia.org/wiki/Technological_singularity Wikipedia Article about Technological Singularity)? It is the inspiration to this meme. At the first glance it tells 
 about cooperation of humans, at least to me. In reality, it tells, maybe even more, about a human kind of cooperation 
 with technology and by technology. Quite some disruptive paradigms and technology had shown up the last years 
 followed by ideas what we could do with it.
