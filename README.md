@@ -25,15 +25,15 @@ I one sentence you could say:
 _"We are going to overcome the client-server paradigm by having the internet as the server, and this gives us the 
 chance to help cooperation to dominate over manipulation."_ 
 
-Still, it's early in the game regarding this ongoing technical revolution. 
-
-It is the time for the creative ones. So, no limits to your ideas. Be curious and think big.
+Still, it's early in the game regarding this ongoing technical revolution. It is the time for the creative ones. 
+So, no limits to your ideas. Be curious and think big.
 
 ---
 
 ## How to start
 
-
+- become a member of our [meet-up group](https://www.meetup.com/de-DE/Munich-IPFS-User-Group/)
+- follow us on twitter <i style='font-size:24px' class='fab'>&#xf36b;</i>
 
 <p align="center">
   <br><br>
