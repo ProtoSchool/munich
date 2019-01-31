@@ -21,7 +21,8 @@ Quite some disruptive paradigms and technology had shown up the last years follo
 I one sentence you could say:
 
 _"We are going to overcome the client-server paradigm by having the internet as the server, and this gives us the 
-chance to help cooperation to dominate over manipulation."_ 
+chance to help cooperation to dominate over manipulation."_  🤔
+
 
 Still, it's early in the game regarding this ongoing technical revolution. It is the time for the creative ones. 
 So, no limits to your ideas. Be curious and think big.
