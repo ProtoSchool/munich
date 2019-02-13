@@ -52,7 +52,7 @@ BTW: We like [creative learning](https://learn.media.mit.edu/lcl/) like we used 
   <br><br>
 </p>
 
-- **Imagine**, get an idea of what you want to do, and bring your ideas into the community. If it's the idea for a 
+- **Imagine**, get an idea of what you want to do, and bring your ideas into the community. The idea for a 
 program or an app, a topic you want to learn and understand, or something totally different.
 
 - **Create** prototypes, tutorials, white papers, or what you've had imagined.
