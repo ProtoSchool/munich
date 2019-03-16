@@ -78,8 +78,7 @@
 <tr align="center">
     <td><a href="https://github.com/multiformats">Multiformats</a>
     </td>
-    <td><a href="https://github.com/multiformats">
-        <img src="./images/icons/logotype_multi.svg" height="84" width="84"></a>
+    <td>
     </td>
     <td><a href="https://github.com/multiformats?language=go">
         <img src="./images/icons/gopher.png" height="42" width="42"></a>
