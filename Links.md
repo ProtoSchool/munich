@@ -36,28 +36,27 @@
 <th>Projects</th><th>Specifications</th><th>Golang</th>
 </tr>
 <tr align="center">
-    <td><a href="https://github.com/ipfs">
-        <img src="./images/icons/ipfs.png" height="42" width="42"></a>
+    <td><a href="https://github.com/ipfs">IPFS</a>
     </td>
-    <td><a href="https://github.com/ipfs/specs">IPFS</a>
+    <td><a href="https://github.com/ipfs/specs">
+        <img src="./images/icons/ipfs.png" height="42" width="42"></a>
     </td>
     <td><a href="https://github.com/ipfs/go-ipfs">
         <img src="./images/icons/gopher.png" height="42" width="42"></a>
     </td>
 </tr>
 <tr align="center">
-    <td><a href="https://github.com/filecoin-project">
-        <img src="./images/icons/filecoin.png" height="42" width="42"></a>
+    <td><a href="https://github.com/filecoin-project">Filecoin</a>
     </td>
-    <td><a href="https://github.com/filecoin-project/specs">Filecoin</a>
+    <td><a href="https://github.com/filecoin-project/specs">
+        <img src="./images/icons/filecoin.png" height="42" width="42"></a>
     </td>
     <td><a href="https://github.com/filecoin-project/go-filecoin">
         <img src="./images/icons/gopher.png" height="42" width="42"></a>
     </td>
 </tr>
 <tr align="center">
-    <td><a href="https://github.com/libp2p/specs">
-        <img src="./images/icons/libp2p.jpeg" height="42" width="42"></a>
+    <td><a href="https://github.com/libp2p">libp2p</a>
     </td>
     <td><a href="https://github.com/libp2p/specs">
         <img src="./images/icons/libp2p.jpeg" height="42" width="42"></a>
@@ -67,25 +66,23 @@
     </td>
 </tr>
 <tr align="center">
-    <td><a href="https://github.com/ipld/specs">
-        <img src="./images/icons/logotype_IPLD.svg" height="42" width="42"></a>
+    <td><a href="https://github.com/ipld">IPLD</a>
     </td>
     <td><a href="https://github.com/ipld/specs">
-        <img src="./images/icons/logotype_IPLD.svg" height="42" width="42"></a>
+        <img src="./images/icons/logotype_IPLD.svg" height="62" width="62"></a>
     </td>
     <td><a href="https://github.com/ipld/go-ipld-prime">
-        <img src="./images/icons/gopher.png" height="42" width="42"></a>
+        <img src="./images/icons/gopher.png" height="80" width="80"></a>
     </td>
 </tr>
 <tr align="center">
-    <td><a href="https://github.com/multiformats">
-        <img src="./images/icons/logotype_multi.svg" height="62" width="62"></a>
+    <td><a href="https://github.com/multiformats">Multiformats</a>
     </td>
     <td><a href="https://github.com/multiformats">
-        <img src="./images/icons/logotype_multi.svg" height="72" width="72"></a>
+        <img src="./images/icons/logotype_multi.svg" height="84" width="84"></a>
     </td>
     <td><a href="https://github.com/multiformats?language=go">
-        <img src="./images/icons/gopher.png" height="42" width="42"></a>
+        <img src="./images/icons/gopher.png" height="74" width="74"></a>
     </td>
 </tr>
 </table>
