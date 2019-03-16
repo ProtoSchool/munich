@@ -69,10 +69,10 @@
     <td><a href="https://github.com/ipld">IPLD</a>
     </td>
     <td><a href="https://github.com/ipld/specs">
-        <img src="./images/icons/ipld.jpeg" height="62" width="62"></a>
+        <img src="./images/icons/ipld.jpeg" height="42" width="42"></a>
     </td>
     <td><a href="https://github.com/ipld/go-ipld-prime">
-        <img src="./images/icons/gopher.png" height="80" width="80"></a>
+        <img src="./images/icons/gopher.png" height="42" width="42"></a>
     </td>
 </tr>
 <tr align="center">
@@ -82,7 +82,7 @@
         <img src="./images/icons/logotype_multi.svg" height="84" width="84"></a>
     </td>
     <td><a href="https://github.com/multiformats?language=go">
-        <img src="./images/icons/gopher.png" height="74" width="74"></a>
+        <img src="./images/icons/gopher.png" height="42" width="42"></a>
     </td>
 </tr>
 </table>
