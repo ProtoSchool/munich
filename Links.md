@@ -33,7 +33,7 @@
 
 <table boder=0 align="center">
 <tr>
-<th>Projects</th><th>Specifications</th><th>Golang</th>
+<th>Projects</th><th>Specifications</th><th>Golang</th><th>JavaScript</th>
 </tr>
 <tr align="center">
     <td><a href="https://github.com/ipfs">IPFS</a>
@@ -43,6 +43,9 @@
     </td>
     <td><a href="https://github.com/ipfs/go-ipfs">
         <img src="./images/icons/gopher.png" height="42" width="42"></a>
+    </td>
+    <td><a href="https://github.com/ipfs/js-ipfs">
+        <img src="./images/icons/js.png" height="42" width="42"></a>
     </td>
 </tr>
 <tr align="center">
@@ -54,6 +57,9 @@
     <td><a href="https://github.com/filecoin-project/go-filecoin">
         <img src="./images/icons/gopher.png" height="42" width="42"></a>
     </td>
+    <td><a href="https://github.com/ipfs/js-ipfs">
+        <img src="./images/icons/js.png" height="42" width="42"></a>
+    </td>
 </tr>
 <tr align="center">
     <td><a href="https://github.com/libp2p">libp2p</a>
@@ -63,6 +69,9 @@
     </td>
     <td><a href="https://github.com/libp2p/go-libp2p">
         <img src="./images/icons/gopher.png" height="42" width="42"></a>
+    </td>
+    <td><a href="https://github.com/ipfs/js-ipfs">
+        <img src="./images/icons/js.png" height="42" width="42"></a>
     </td>
 </tr>
 <tr align="center">
@@ -74,6 +83,9 @@
     <td><a href="https://github.com/ipld/go-ipld-prime">
         <img src="./images/icons/gopher.png" height="42" width="42"></a>
     </td>
+    <td><a href="https://github.com/ipfs/js-ipfs">
+        <img src="./images/icons/js.png" height="42" width="42"></a>
+    </td>
 </tr>
 <tr align="center">
     <td><a href="https://github.com/multiformats">Multiformats</a>
@@ -82,6 +94,9 @@
     </td>
     <td><a href="https://github.com/multiformats?language=go">
         <img src="./images/icons/gopher.png" height="42" width="42"></a>
+    </td>
+    <td><a href="https://github.com/ipfs/js-ipfs">
+        <img src="./images/icons/js.png" height="42" width="42"></a>
     </td>
 </tr>
 </table>
