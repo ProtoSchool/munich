@@ -13,8 +13,9 @@ We are a group of people passionate about the decentralized web and excited to l
   <br><br>
 </p>
 
-We announce our first [Protoschool Munich Meetup](https://www.meetup.com/de-DE/Munich-IPFS-User-Group/events/).
-See the agenda and more [here](./01_Meetup_101_IPFS_Workshop/README.md).
+We announce our first [Protoschool Munich Meetup](https://www.meetup.com/de-DE/Munich-IPFS-User-Group/events/). 
+Do influence the agenda and [open an issue](https://github.com/ProtoSchool/munich/issues) with your concerns.
+See the current agenda and more [here](./01_Meetup_101_IPFS_Workshop/README.md).  
 
 ---
 
