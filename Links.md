@@ -79,10 +79,10 @@
 </tr>
 <tr align="center">
     <td><a href="https://github.com/multiformats">
-        <img src="./images/icons/logotype_multi.svg" height="42" width="42"></a>
+        <img src="./images/icons/logotype_multi.svg" height="62" width="62"></a>
     </td>
     <td><a href="https://github.com/multiformats">
-        <img src="./images/icons/logotype_multi.svg" height="42" width="42"></a>
+        <img src="./images/icons/logotype_multi.svg" height="72" width="72"></a>
     </td>
     <td><a href="https://github.com/multiformats?language=go">
         <img src="./images/icons/gopher.png" height="42" width="42"></a>
