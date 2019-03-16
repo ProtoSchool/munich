@@ -47,8 +47,7 @@
     <td><a href="https://github.com/ipfs/js-ipfs">
         <img src="./images/icons/js.png" height="42" width="42"></a>
     </td>
-    <td><a href="https://github.com/multiformats?utf8=%E2%9C%93&q=&type=&language=rust">
-        <img src="./images/icons/rust.png" height="42" width="42"></a>
+    <td>
     </td>
 </tr>
 <tr align="center">
@@ -60,10 +59,10 @@
     <td><a href="https://github.com/filecoin-project/go-filecoin">
         <img src="./images/icons/gopher.png" height="42" width="42"></a>
     </td>
-    <td><a href="https://github.com/ipfs/js-ipfs">
+    <td><a href="https://github.com/filecoin-project?language=javascript">
         <img src="./images/icons/js.png" height="42" width="42"></a>
     </td>
-    <td><a href="https://github.com/multiformats?utf8=%E2%9C%93&q=&type=&language=rust">
+    <td><a href="https://github.com/filecoin-project?type=source&language=rust">
         <img src="./images/icons/rust.png" height="42" width="42"></a>
     </td>
 </tr>
@@ -76,10 +75,10 @@
     <td><a href="https://github.com/libp2p/go-libp2p">
         <img src="./images/icons/gopher.png" height="42" width="42"></a>
     </td>
-    <td><a href="https://github.com/ipfs/js-ipfs">
+    <td><a href="https://github.com/libp2p/js-libp2p">
         <img src="./images/icons/js.png" height="42" width="42"></a>
     </td>
-    <td><a href="https://github.com/multiformats?utf8=%E2%9C%93&q=&type=&language=rust">
+    <td><a href="https://github.com/libp2p/rust-libp2p">
         <img src="./images/icons/rust.png" height="42" width="42"></a>
     </td>
 </tr>
@@ -92,11 +91,10 @@
     <td><a href="https://github.com/ipld/go-ipld-prime">
         <img src="./images/icons/gopher.png" height="42" width="42"></a>
     </td>
-    <td><a href="https://github.com/ipfs/js-ipfs">
+    <td><a href="https://github.com/ipld/js-ipld">
         <img src="./images/icons/js.png" height="42" width="42"></a>
     </td>
-    <td><a href="https://github.com/multiformats?utf8=%E2%9C%93&q=&type=&language=rust">
-        <img src="./images/icons/rust.png" height="42" width="42"></a>
+    <td>
     </td>
 </tr>
 <tr align="center">
@@ -107,7 +105,7 @@
     <td><a href="https://github.com/multiformats?language=go">
         <img src="./images/icons/gopher.png" height="42" width="42"></a>
     </td>
-    <td><a href="https://github.com/ipfs/js-ipfs">
+    <td><a href="https://github.com/multiformats?language=javascript">
         <img src="./images/icons/js.png" height="42" width="42"></a>
     </td>
     <td><a href="https://github.com/multiformats?language=rust">
