@@ -1,6 +1,4 @@
-### Protocol Labs
-
-##### Websites
+#### Websites
 
 <table boder=0>
 <tr>
@@ -13,28 +11,47 @@
 </tr>
 </table>
 
-
-[Protocol Labs](https://protocol.ai/)
-
-[ProtoSchool - Interactive tutorials on decentralized web protocols](https://proto.school/#/)
-
-##### Forums
+#### Forums
 
 <table boder=0>
 <tr>
     <td><img src="./images/icons/ipfs.png" height="42" width="42"></td>
-    <td><a href="https://discuss.ipfs.io/">discuss ipfs</a></td>
+    <td><a href="https://discuss.ipfs.io/">IPFS</a></td>
 </tr>
 <tr>
     <td><img src="./images/icons/filecoin.png" height="42" width="42"></td>
-    <td><a href="https://discuss.filecoin.io/">discuss filecoin</a></td>
+    <td><a href="https://discuss.filecoin.io/">Filecoin</a></td>
 </tr>
 <tr>
     <td><img src="./images/icons/libp2p.jpeg" height="42" width="42"></td>
-    <td><a href="https://discuss.libp2p.io/">discuss libp2p</a></td>
+    <td><a href="https://discuss.libp2p.io/">libp2p</a></td>
 </tr>
 </table>
 
 
-### IPFS related links
+#### Development
+
+<table boder=0>
+<tr>
+    <td><img src="./images/icons/gopher.png" height="42" width="42"></td>
+    <td><a href="https://github.com/ipfs/go-ipfs">IPFS</a></td>
+</tr>
+<tr>
+    <td><img src="./images/icons/gopher.png" height="42" width="42"></td>
+    <td><a href="https://github.com/filecoin-project/go-filecoin">Filecoin</a></td>
+</tr>
+<tr>
+    <td><img src="./images/icons/gopher.png" height="42" width="42"></td>
+    <td><a href="https://github.com/libp2p/go-libp2p">libp2p</a></td>
+</tr>
+<tr>
+    <td><img src="./images/icons/gopher.png" height="42" width="42"></td>
+    <td><a href="https://github.com/ipld/go-ipld-prime">IPLD</a></td>
+</tr>
+<tr>
+    <td><img src="./images/icons/gopher.png" height="42" width="42"></td>
+    <td><a href="https://github.com/multiformats?language=go">Multiformats</a></td>
+</tr>
+</table>
+
 
