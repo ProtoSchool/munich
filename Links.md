@@ -33,7 +33,7 @@
 
 <table boder=0 align="center">
 <tr>
-<th>Projects</th><th>Specifications</th><th>Golang</th><th>JavaScript</th>
+<th>Projects</th><th>Specifications</th><th>Golang</th><th>JavaScript</th><th>Rust</th>
 </tr>
 <tr align="center">
     <td><a href="https://github.com/ipfs">IPFS</a>
@@ -46,6 +46,9 @@
     </td>
     <td><a href="https://github.com/ipfs/js-ipfs">
         <img src="./images/icons/js.png" height="42" width="42"></a>
+    </td>
+    <td><a href="https://github.com/multiformats?utf8=%E2%9C%93&q=&type=&language=rust">
+        <img src="./images/icons/rust.png" height="42" width="42"></a>
     </td>
 </tr>
 <tr align="center">
@@ -60,6 +63,9 @@
     <td><a href="https://github.com/ipfs/js-ipfs">
         <img src="./images/icons/js.png" height="42" width="42"></a>
     </td>
+    <td><a href="https://github.com/multiformats?utf8=%E2%9C%93&q=&type=&language=rust">
+        <img src="./images/icons/rust.png" height="42" width="42"></a>
+    </td>
 </tr>
 <tr align="center">
     <td><a href="https://github.com/libp2p">libp2p</a>
@@ -72,6 +78,9 @@
     </td>
     <td><a href="https://github.com/ipfs/js-ipfs">
         <img src="./images/icons/js.png" height="42" width="42"></a>
+    </td>
+    <td><a href="https://github.com/multiformats?utf8=%E2%9C%93&q=&type=&language=rust">
+        <img src="./images/icons/rust.png" height="42" width="42"></a>
     </td>
 </tr>
 <tr align="center">
@@ -86,6 +95,9 @@
     <td><a href="https://github.com/ipfs/js-ipfs">
         <img src="./images/icons/js.png" height="42" width="42"></a>
     </td>
+    <td><a href="https://github.com/multiformats?utf8=%E2%9C%93&q=&type=&language=rust">
+        <img src="./images/icons/rust.png" height="42" width="42"></a>
+    </td>
 </tr>
 <tr align="center">
     <td><a href="https://github.com/multiformats">Multiformats</a>
@@ -97,6 +109,9 @@
     </td>
     <td><a href="https://github.com/ipfs/js-ipfs">
         <img src="./images/icons/js.png" height="42" width="42"></a>
+    </td>
+    <td><a href="https://github.com/multiformats?language=rust">
+        <img src="./images/icons/rust.png" height="42" width="42"></a>
     </td>
 </tr>
 </table>
