@@ -8,10 +8,12 @@
 
 ##### Communication
 
-<p>
-<img src="./images/icons/filecoin.png" alt="Smiley face" height="42" width="42"> 
-<a href="https://discuss.filecoin.io/">Discuss filecoin</a>
-</p>
+<table boder=0>
+<tr>
+    <td><img src="./images/icons/filecoin.png" height="42" width="42"></td>
+    <td><a href="https://discuss.filecoin.io/">Discuss filecoin</a></td>
+</tr>
+</table>
 
 [Discuss ipfs](https://discuss.ipfs.io/)
 
