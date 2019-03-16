@@ -10,8 +10,16 @@
 
 <table boder=0>
 <tr>
+    <td><img src="./images/icons/ipfs.png" height="42" width="42"></td>
+    <td><a href="https://discuss.ipfs.io/">discuss ipfs</a></td>
+</tr>
+<tr>
     <td><img src="./images/icons/filecoin.png" height="42" width="42"></td>
-    <td><a href="https://discuss.filecoin.io/">Discuss filecoin</a></td>
+    <td><a href="https://discuss.filecoin.io/">discuss filecoin</a></td>
+</tr>
+<tr>
+    <td><img src="./images/icons/libp2p.jpeg" height="42" width="42"></td>
+    <td><a href="https://discuss.libp2p.io/">discuss libp2p</a></td>
 </tr>
 </table>
 
