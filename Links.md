@@ -69,7 +69,7 @@
     <td><a href="https://github.com/ipld">IPLD</a>
     </td>
     <td><a href="https://github.com/ipld/specs">
-        <img src="./images/icons/logotype_IPLD.svg" height="62" width="62"></a>
+        <img src="./images/icons/ipld.jpeg" height="62" width="62"></a>
     </td>
     <td><a href="https://github.com/ipld/go-ipld-prime">
         <img src="./images/icons/gopher.png" height="80" width="80"></a>
