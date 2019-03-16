@@ -4,6 +4,8 @@ Welcome to the Munich chapter of [ProtoSchool](https://proto.school)!
 
 We are a group of people passionate about the decentralized web and excited to learn, teach, and share ideas. Everyone is welcome!
 
+---
+### 🙌🙌🙌 #1 Meetup: 101 IPFS Workshop🙌🙌🙌
 
 
 ---
