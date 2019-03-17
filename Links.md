@@ -1,6 +1,4 @@
-<font size="3" color="red">
-👋 UNDER CONSTRUCTION 🤔
-</font>
+<span style="color:red;text-align:center">👋 UNDER CONSTRUCTION 🤔</span>
 
 #### Websites
 
