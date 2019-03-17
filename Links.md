@@ -31,7 +31,7 @@
 
 #### Development
 
-<table boder=0 align="center">
+<table boder=0>
 <tr>
 <th>Projects</th><th>Specifications</th><th>Golang</th><th>JavaScript</th><th>Rust</th>
 </tr>
@@ -115,3 +115,12 @@
 </table>
 
 
+#### Tutorials, White Papers, and Articles
+
+- [The Decentralized Web Primer](https://dweb-primer.ipfs.io)
+- [IPFS - Content Addressed, Versioned, P2P File System](https://ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf)
+- [Understanding the IPFS White Paper](https://decentralized.blog/understanding-the-ipfs-white-paper-part-1.html)
+- [IPFS Introduction by Example](http://whatdoesthequantsay.com/2015/09/13/ipfs-introduction-by-example)
+- [INFURA Tutorial: Introduction to IPFS](https://github.com/INFURA/tutorials/wiki/Introduction-to-IPFS)
+- [Tutorial: Setting up an IPFS peer, part I](https://medium.com/textileio/tutorial-setting-up-an-ipfs-peer-part-i-de48239d82e0)
+- [Swapping bits and distributing hashes on the decentralized web](https://medium.com/textileio/swapping-bits-and-distributing-hashes-on-the-decentralized-web-5da98a3507)
