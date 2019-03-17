@@ -1,6 +1,6 @@
-<p style="color:red;text-align:center">
-👋 UNDER CONSTRUCTION 🤔 😕
-</p>
+<font size="3" color="red">
+👋 UNDER CONSTRUCTION 🤔
+</font>
 
 #### Websites
 
