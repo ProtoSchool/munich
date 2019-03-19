@@ -14,6 +14,10 @@
 - WebUI
 - Gateways
 
+### Exercises
+
+- [ipfs p2p](exercises/IPFS-P2P.md)
+
 ### Discussion
 
 - Impressions
