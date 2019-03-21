@@ -1,4 +1,4 @@
-Start the daemon in the background (if necessary.
+Start the daemon in the background (if necessary).
 
 ```
 ipfs daemon &
