@@ -1,6 +1,6 @@
 ### Introduction
 
-- Open concepts
+- Concepts
 - IPFS, ProtoSchool
 
 ### Installation
