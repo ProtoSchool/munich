@@ -1,8 +1,8 @@
-# ProtoSchool Munich
+# ProtoSchool Munich 🌍🇩🇪🏔️
 
-Welcome to the Munich chapter of [ProtoSchool](https://proto.school)!
+We are a group of people passionate about the decentralized web and excited to learn, teach, and share ideas. 
 
-We are a group of people passionate about the decentralized web and excited to learn, teach, and share ideas. Everyone is welcome!
+Everyone is welcome at the Munich chapter of [ProtoSchool](https://proto.school)!
 
 ---
 <h1 align="center">🥁 🥁 🥁 Meetup #1 🥁 🥁 🥁</h1>
