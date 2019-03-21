@@ -17,6 +17,7 @@
 ### Exercises
 
 - [ipfs basics](../exercises/IPFS-Basics.md)
+- [ipfs pin](../exercises/IPFS-Pin.md)
 - [ipfs p2p](../exercises/IPFS-P2P.md)
 
 ### Discussion
