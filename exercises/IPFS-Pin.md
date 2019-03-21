@@ -83,3 +83,7 @@ ipfs refs -re QmVeXcawu61X6w2ey6kAK9ZZ3ayaFxxT7nL9kurJRbJW9e
 <br>
 
 Start the daemon and repeat the exercise.
+
+<br>
+
+Try out a pinning service like [Pinata](https://pinata.cloud/), if you please.
