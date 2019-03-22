@@ -18,7 +18,14 @@
 
 - [ipfs basics](../exercises/IPFS-Basics.md)
 - [ipfs pin](../exercises/IPFS-Pin.md)
+
+<br>
+
 - [ipfs swarm](../exercises/IPFS-Swarm.md)
+- [ipfs ipns](../exercises/IPFS-IPNS.md)
+
+<br>
+
 - [ipfs p2p](../exercises/IPFS-P2P.md)
 
 ### Discussion
