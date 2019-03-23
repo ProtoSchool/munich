@@ -22,10 +22,11 @@
 <br>
 
 - [ipfs swarm](../exercises/IPFS-Swarm.md)
-- [ipfs ipns](../exercises/IPFS-IPNS.md)
+- [ipns](../exercises/IPFS-IPNS.md)
 
 <br>
 
+- [ipfs bitswap](../exercises/IPFS-Bitswap.md)
 - [ipfs p2p](../exercises/IPFS-P2P.md)
 
 ### Discussion
