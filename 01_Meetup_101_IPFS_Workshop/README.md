@@ -18,11 +18,12 @@
 
 - [ipfs basics](../exercises/IPFS-Basics.md)
 - [ipfs pin](../exercises/IPFS-Pin.md)
+- [ipns](../exercises/IPFS-IPNS.md)
 
 <br>
 
 - [ipfs swarm](../exercises/IPFS-Swarm.md)
-- [ipns](../exercises/IPFS-IPNS.md)
+- [ipfs bootstrap](../exercises/IPFS-Bootstrap.md)
 
 <br>
 
