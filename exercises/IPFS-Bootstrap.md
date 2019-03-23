@@ -61,14 +61,14 @@ ipfs daemon &
 ```
 
 <br>
-Choose peer address for private network.
+Choose address of one peer as bootstrap peer for another.
 
 ```
 ipfs id -f="<addrs>\n"
 ```
 
 <br>
-Add bootstrap peer from private network.
+Add address of one peer as bootstrap peer of another.
 
 ```
 ipfs bootstrap add <multiaddr>/<peerID>
