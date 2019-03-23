@@ -6,12 +6,13 @@ ipfs get -o /tmp/bigfile QmfWQHVazH6so9p27z27rr8TJSdBFGpH7hunDcaZ1EAQ2c
 ipfs bitswap wantlist
 ipfs bitswap ledger <peer id>
 
-num=1;for i in $(ipfs bitswap wantlist)
+num=1
+for i in $(ipfs bitswap wantlist)
 do
-echo $num $i
-ipfs bitswap ledger $i
-echo
-let num=num+1
+    echo $num $i
+    ipfs bitswap ledger $i
+    echo
+    let num=num+1
 done
 ```
 
