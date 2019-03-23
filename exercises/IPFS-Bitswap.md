@@ -1,28 +1,66 @@
-Get a large file and watch bitswap acting.
+### Get a large file and watch bitswap acting.
+
+<br>
+Reset the bitswap statistics.
 
 ```
-ipfs get -o /tmp/bigfile QmfWQHVazH6so9p27z27rr8TJSdBFGpH7hunDcaZ1EAQ2c
+ipfs bitswap stat
+ipfs shutdown
+ipfs daemon &
+ipfs bitswap stat
+```
 
-ipfs bitswap wantlist
-ipfs bitswap ledger <peer id>
+<br>
+Watch the statistics in one terminal.
 
-num=1
-for i in $(ipfs bitswap wantlist)
+```
+while true
 do
-    echo $num $i
-    ipfs bitswap ledger $i
-    echo
-    let num=num+1
+    ipfs bitswap stat | grep -v Qm | grep -v 12D
+    sleep 1
 done
 ```
 
-Note: The output of the ledger shows no data transfer. I've ask about it in the [IPFS Forum](https://discuss.ipfs.io/t/bitswap-ledger-shows-no-transferred-data/5073).
+<br>
+Watch the bitswap ledger in one terminal.
+
+```
+while true
+do
+  for peer in $(ipfs swarm peers | awk -F/ '{ print $NF }')
+  do
+    ledgerdata=$(ipfs bitswap ledger $peer)
+    if [[ -n "$(echo $ledgerdata | grep -v '\t0$' | grep -v '\t0.000000$' | grep Bytes)" ]]
+    then 
+        date
+        echo $peer
+        echo $ledgerdata
+        echo
+    fi
+  done
+  sleep 1
+done
+```
 
 <br>
-Get a large file and compare statistics before and after.
+Watch the number of connected peers in one terminal.
 
 ```
-ipfs bitswap stat | head -20
-ipfs get -o /tmp/bigfile QmYi6yy3ygc3dNJETqFvvyXdZx28dNyNbZLHkiimhd8Jzd
-ipfs bitswap stat | head -20
+while true
+do
+   printf "\rNumber of connected peers: %s" $(ipfs swarm peers | wc -l)
+   sleep 1
+done
 ```
+
+<br>
+Start the download in one terminal.
+
+```
+ipfs get -o /tmp/bigfile QmYi6yy3ygc3dNJETqFvvyXdZx28dNyNbZLHkiimhd8Jzd
+```
+
+Note: Do you have it already in your repo? You can remove it, i.e. `ipfs repo gc.`
+If the download is stalling, you can do the same download from another node in parallel.
+
+ToDo: What is different, if a peer nearby has the big file already downloaded?
