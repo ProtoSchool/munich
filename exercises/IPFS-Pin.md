@@ -1,8 +1,7 @@
 Stop the daemon (if necessary).
 
 ```
-ps -ef | grep "ipfs daemon"
-kill <pid>
+ipfs shutdown
 ```
 
 <br>
