@@ -1,3 +1,11 @@
+Start the daemon in the background, if necessary.
+
+```
+ipfs daemon &
+```
+
+<br>
+
 ### Default key: Create, publish, change data and refresh
 
 <br>

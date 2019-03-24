@@ -1,4 +1,4 @@
-Stop the daemon (if necessary).
+Stop the daemon (optional).
 
 ```
 ipfs shutdown

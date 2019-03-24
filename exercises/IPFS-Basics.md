@@ -34,8 +34,9 @@ ipfs config Addresses.API
 open http://127.0.0.1:5001/webui
 ```
 
-<br>
 Get the hash of the web UI URL and explore it in the web UI. 
+
+<br>
 
 Check out the [public IPFS gatways](https://ipfs.github.io/public-gateway-checker/).
 Check out the local gateway.
