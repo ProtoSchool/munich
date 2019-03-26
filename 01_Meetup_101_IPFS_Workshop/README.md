@@ -16,18 +16,15 @@
 
 ### Exercises
 
----
 
 - [ipfs basics](../exercises/IPFS-Basics.md)
 - [ipfs pin](../exercises/IPFS-Pin.md)
 - [ipns](../exercises/IPFS-IPNS.md)
 
 The end of the ipns exercise is how we share a public read-write directory commonly. 
-If you have this going, you can watch things under the hood in the next exercises.
+If you have this going, you can watch things under the hood in the next exercise.
 
 - [ipfs log](../exercises/IPFS-Log.md)
-
----
 
 <br>
 
@@ -35,8 +32,6 @@ If you have this going, you can watch things under the hood in the next exercise
 - [ipfs bootstrap](../exercises/IPFS-Bootstrap.md)
 
 The end of the bootstrap exercise is how we create a private network of peers.
-
----
 
 <br>
 
