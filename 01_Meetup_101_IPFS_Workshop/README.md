@@ -1,18 +1,20 @@
 ### Introduction
 
 - Concepts
-- IPFS, ProtoSchool
+- [IPFS](https://ipfs.io/)
+- [ProtoSchool](https://proto.school/)
+- [ProtoSchool Munich](https://github.com/protoschool/munich)
 
 ### Installation
 
-- IPFS
+- [IPFS](https://docs.ipfs.io/introduction/install/)
 
 ### Exploration
 
-- ```ipfs``` command
-- ```ipfs daemon```
-- WebUI
-- Gateways
+- [```ipfs``` command](https://docs.ipfs.io/reference/api/cli/)
+- [```ipfs daemon```](https://docs.ipfs.io/reference/api/cli/#ipfs-daemon)
+- [WebUI](https://docs.ipfs.io/introduction/usage/#fancy-web-console)
+- [Gateways](https://ipfs.github.io/public-gateway-checker/)
 
 ### Exercises
 
@@ -49,4 +51,3 @@ These exercises are related to the issue [IPFS Live Streaming #9](https://github
 ### Panel
 
 - What's next?
-
