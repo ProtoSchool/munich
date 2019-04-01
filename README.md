@@ -5,7 +5,7 @@ We are a group of people passionate about the decentralized web and excited to l
 Everyone is welcome at the Munich chapter of [ProtoSchool](https://proto.school)!
 
 ---
-<h1 align="center">🥁 🥁 🥁 Meetup #1 🥁 🥁 🥁</h1>
+<h1 align="center">🥁 🥁 🥁 Meetup #2 🥁 🥁 🥁</h1>
 
 <p align="center">
   <br><br>
