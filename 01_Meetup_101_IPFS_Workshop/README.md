@@ -16,7 +16,7 @@
 - [WebUI](https://docs.ipfs.io/introduction/usage/#fancy-web-console)
 - [Gateways](https://ipfs.github.io/public-gateway-checker/)
 
-### Exercises
+### Exercises 👋 will be revised 👋
 
 
 - [ipfs basics](../exercises/IPFS-Basics.md)
