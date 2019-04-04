@@ -12,6 +12,7 @@
 ### Exploration
 
 - [```ipfs``` command](https://docs.ipfs.io/reference/api/cli/)
+- [```ipfs init```](https://docs.ipfs.io/reference/api/cli/#ipfs-init)
 - [```ipfs daemon```](https://docs.ipfs.io/reference/api/cli/#ipfs-daemon)
 - [WebUI](https://docs.ipfs.io/introduction/usage/#fancy-web-console)
 - [Gateways](https://ipfs.github.io/public-gateway-checker/)
