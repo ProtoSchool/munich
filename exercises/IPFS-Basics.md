@@ -1,6 +1,5 @@
 ### Initialize IPFS
 
-<br>
 Before you can start IPFS for the first time, you have to initialize it.
 
 ```
@@ -12,11 +11,12 @@ and another execution of ```ipfs init``` creates a new instance with another hom
 
 There IPFS stores configuration, keys, and other data. But you should use commands to explore.
 
+<br>
+
 ### See the config and start the daemon
 
 Some commands do not need a running IPFS. 
 
-<br>
 Get the config of your IPFS node and its ID.
 
 ```
@@ -47,8 +47,6 @@ ipfs daemon &
 
 The API server provides a [HTTP interface for JSON](https://docs.ipfs.io/reference/api/http/).
 
-
-<br>
 Get the API server address, the version and then prepare the URL to request the ID of your node.
 
 ```
@@ -63,7 +61,6 @@ The CLI requests the API server, if online.
 <br>
 
 The API server offers a web UI out of the box.
-
 ```
 open http://127.0.0.1:5001/webui
 ```
@@ -78,9 +75,9 @@ So, copy 'QmXc9raDM1M5G5fpBnVyQ71vR4gbnskwnB9iMEzBuLgvoZ' in the 'Explore' textf
 You see the directory of the web UI itself. Navigate deeper and find out files are not displayed according to its type. 
 Here the gateway does help. 
 
+<br>
 
 ###  Local and public gateways to IPFS files
-<br>
 
 IPFS includes a local gateway which provides files and directories requested via CID and displayed according to its type.
 
@@ -101,8 +98,6 @@ There is a list of [public IPFS gateways](https://ipfs.github.io/public-gateway-
 
 Before we go on using the CLI, I like to mention the CLI help. Please, have a look at ```ipfs --help```.
 
-<br>
-
 IPFS is a filesystem and has files and directories addressable directly by its CIDs. 
 Child elements can be addressed as well by a CID and the following path.
 
@@ -120,6 +115,7 @@ cat /tmp/manifest.json
 ```
 
 To get an impression of the internal reference structure we can use ```ipfs refs```
+
 ```
 ipfs refs -re /ipfs/QmSDgpiHco5yXdyVTfhKxr3aiJ82ynz8V14QcGKicM3rVh
 ipfs refs -re /ipfs/QmSDgpiHco5yXdyVTfhKxr3aiJ82ynz8V14QcGKicM3rVh/static/
