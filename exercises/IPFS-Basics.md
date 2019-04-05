@@ -17,7 +17,7 @@ There IPFS stores configuration, keys, and other data. But you should use comman
 
 Some commands do not need a running IPFS. 
 
-Get the config of your IPFS node and its ID.
+Get the [config of your IPFS](https://github.com/ipfs/go-ipfs/blob/master/docs/config.md) node and its ID.
 
 ```
 ipfs config show
