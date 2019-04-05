@@ -142,36 +142,42 @@ ipfs refs -re /ipfs/QmchYktXUvYPeNLWu2miVi1TNKTWazFnyDsBo3NufHo87x/
 ### Add files
 
 <br>
-Create hashes of files and directories.
+First, we create only CIDs of files ...
 
 ```
-ipfs add -n /tmp/manifest.json /tmp/manifest2.json
+ipfs add --only-hash /tmp/manifest.json /tmp/manifest2.json
 
 echo " " >> /tmp/manifest.json
-ipfs add -n /tmp/manifest.json /tmp/manifest2.json
+ipfs add --only-hash /tmp/manifest.json /tmp/manifest2.json
 
-ipfs add -nw /tmp/manifest.json /tmp/manifest2.json
+ipfs add --only-hash --wrap-with-directory /tmp/manifest.json /tmp/manifest2.json
 
+```
+and directories. Now using ```-n -w``` instead of ```--only-hash --wrap-with-directory```
+ 
+```
 mkdir /tmp/test
 cp /tmp/manifest*.json /tmp/test
 
-ipfs add -nr /tmp/test
-ipfs add -nrw /tmp/test
+ipfs add -n --recursive /tmp/test
+ipfs add -nw --recursive /tmp/test
 ```
 
 <br>
-Add files and directories.
+Now, we create files and directories, and only add them to IPFS and do not pin them. 
+They usually will be pinned, i.e., be stored in the local repository permanently.
+Now using ```-r``` instead of ```--recursive```.
 
 ```
 mkdir testdata
 cd testdata
 
-for d in a b c
+for dir in a b c
 do
-    mkdir $d
-    for f in d e f
+    mkdir $dir
+    for file in d e f
     do
-        echo $f > $d/$f
+        echo "being in $dir/$file" > $dir/$file
     done
 done
 find .
@@ -183,25 +189,48 @@ ipfs add -r --pin=false .
 
 Explore ```testdata``` in the web UI.
 
+```
+open http://127.0.0.1:5001/ipfs/QmXc9raDM1M5G5fpBnVyQ71vR4gbnskwnB9iMEzBuLgvoZ/#/explore/QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
+```
+
 
 <br>
 
-Explore what a change changes.
+Explore ```testdata``` via CLI
 
 ```
-ipfs ls QmVeXcawu61X6w2ey6kAK9ZZ3ayaFxxT7nL9kurJRbJW9e
-ipfs refs -re QmVeXcawu61X6w2ey6kAK9ZZ3ayaFxxT7nL9kurJRbJW9e
+ipfs ls QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
+ipfs refs -r --edges QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
 
 ipfs cat QmTnXiAHv2eV3Nx1AwAuifoLFYXwY2HdHjB9atXCp7xXUV
-echo "x" > a/d
-ipfs add -r --pin=false .
-ipfs cat QmUNXr47Bja3aHUMfhXX5mMWTFJKuoUGETcA48vHG7dhag
-
-ipfs ls QmVeXcawu61X6w2ey6kAK9ZZ3ayaFxxT7nL9kurJRbJW9e
-ipfs ls QmSmXg1ehfz2wfhXVh3N6MvFKctDZ9qs9U5Y7KpuNZkRhX
-
-ipfs refs -re QmVeXcawu61X6w2ey6kAK9ZZ3ayaFxxT7nL9kurJRbJW9e
-ipfs refs -re QmSmXg1ehfz2wfhXVh3N6MvFKctDZ9qs9U5Y7KpuNZkRhX
 ```
 
+Change a file, add it all again, and investigate the changes.
+Now using ```-e``` instead of ```--edges```.
+
+```
+echo "I was changed" > a/d
+ipfs add -r --pin=false .
+ipfs cat QmevGKHyANXuX91aHqr6C7Tw9Eh9BiiBWt536ndgBAdUij
+
+ipfs ls QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
+ipfs ls QmfLbiadyx6z3GkAb5KULbo5J6NJUVGhWCfk34xDmm47mU
+
+ipfs refs -re QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
+ipfs refs -re QmfLbiadyx6z3GkAb5KULbo5J6NJUVGhWCfk34xDmm47mU
+```
+
+Under the hood, we have manipulated DAG objects. We can do this directly via ```ipfs object```.
+
+```
+ipfs object get QmevGKHyANXuX91aHqr6C7Tw9Eh9BiiBWt536ndgBAdUij | jq
+
+ipfs object get QmfLbiadyx6z3GkAb5KULbo5J6NJUVGhWCfk34xDmm47mU | jq
+ipfs object links QmfLbiadyx6z3GkAb5KULbo5J6NJUVGhWCfk34xDmm47mU
+ipfs object stat QmfLbiadyx6z3GkAb5KULbo5J6NJUVGhWCfk34xDmm47mU
+
+ipfs object diff -v QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM QmfLbiadyx6z3GkAb5KULbo5J6NJUVGhWCfk34xDmm47mU 
+```
+
+There will be more about Merkle DAG objects and their raw data in another exercise to come.
 
