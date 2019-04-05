@@ -1,4 +1,9 @@
-Stop the daemon (optional).
+### Pin files and directories
+
+IPFS stores all added objects in the local repository, but a garbage collection will not remove pinned objects.
+A garbage collection takes place periodically as configured ```ipfs config Datastore.GCPeriod```. 
+
+To test this behavior, we can go offline, or we see the immediately reload from other IPFS nodes if we make a request.
 
 ```
 ipfs shutdown
@@ -14,16 +19,14 @@ ipfs pin ls QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
 ipfs cat QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
 ```
 
-<br>
-Garbage collect the repo and check for pinned file.
+Garbage collect the repository and check for the pinned file again.
 
 ```
 ipfs repo gc
 ipfs cat QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
 ```
 
-<br>
-Remove pin, garbage collect the repo and check for file.
+Remove the pin, garbage collect the repository and check now for the unpinned file.
 
 ```
 ipfs pin rm QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
@@ -33,56 +36,56 @@ ipfs repo gc
 ipfs cat QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
 ```
 
-
 <br>
-Create a test directory (if necessary), add it without pins and pin it explicitly.
+Create a test directory and add it without pinning.
+If you have already done this in a former exercise, skip this step.
 
 ```
 mkdir testdata
 cd testdata
 
-for d in a b c
+for dir in a b c
 do
-    mkdir $d
-    for f in d e f
+    mkdir $dir
+    for file in d e f
     do
-        echo $f > $d/$f
+        echo "being in $dir/$file" > $dir/$file
     done
 done
 find .
 
 ipfs add -r --pin=false .
-
-ipfs pin ls QmVeXcawu61X6w2ey6kAK9ZZ3ayaFxxT7nL9kurJRbJW9e
-ipfs pin add QmVeXcawu61X6w2ey6kAK9ZZ3ayaFxxT7nL9kurJRbJW9e
-ipfs pin ls QmVeXcawu61X6w2ey6kAK9ZZ3ayaFxxT7nL9kurJRbJW9e
 ```
 
-<br>
+Now, look for pins, remove them, and look again.
+
+```
+ipfs pin ls QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
+ipfs pin add QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
+ipfs pin ls QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
+```
+
 Garbage collect the repo and check for pinned file.
 
 ```
-ipfs refs -re QmVeXcawu61X6w2ey6kAK9ZZ3ayaFxxT7nL9kurJRbJW9e
+ipfs refs -re QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
 ipfs repo gc
-ipfs refs -re QmVeXcawu61X6w2ey6kAK9ZZ3ayaFxxT7nL9kurJRbJW9e
+ipfs refs -re QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
 ```
 
-<br>
 Remove pins and repeat it.
 
 ```
-ipfs rm -r QmVeXcawu61X6w2ey6kAK9ZZ3ayaFxxT7nL9kurJRbJW9e
-ipfs pin ls QmVeXcawu61X6w2ey6kAK9ZZ3ayaFxxT7nL9kurJRbJW9e
+ipfs rm -r QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
+ipfs pin ls QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
 
-ipfs refs -re QmVeXcawu61X6w2ey6kAK9ZZ3ayaFxxT7nL9kurJRbJW9e
+ipfs refs -re QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
 ipfs repo gc
-ipfs refs -re QmVeXcawu61X6w2ey6kAK9ZZ3ayaFxxT7nL9kurJRbJW9e
+ipfs refs -re QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
 ```
 
 <br>
 
-Start the daemon and repeat the exercise.
+If you have done the exercise offline, you can start the daemon and repeat the tasks, if you please.
 
-<br>
-
-Try out a pinning service like [Pinata](https://pinata.cloud/), if you please.
+If you want to pin objects without having an IPFS node yourself, you can use a pinning service like [Pinata](https://pinata.cloud/).
