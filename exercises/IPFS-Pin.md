@@ -1,13 +1,9 @@
 ### Pin files and directories
 
 IPFS stores all added objects in the local repository, but a garbage collection will not remove pinned objects.
-A garbage collection takes place periodically as configured ```ipfs config Datastore.GCPeriod```. 
+A garbage collection takes place periodically as configured; see: ```ipfs config Datastore.GCPeriod```. 
 
-To test this behavior, we can go offline, or we see the immediately reload from other IPFS nodes if we make a request.
-
-```
-ipfs shutdown
-```
+To test this behavior, we can go offline by ```ipfs shutdown```, or we see the immediately reload from other IPFS nodes if we make a request.
 
 <br>
 Add a file pinned by default.
