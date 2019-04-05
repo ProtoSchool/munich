@@ -139,7 +139,7 @@ ipfs refs -re /ipfs/QmchYktXUvYPeNLWu2miVi1TNKTWazFnyDsBo3NufHo87x/
 ```
 <br>
 
-### Add files
+### Add files and directories
 
 <br>
 First, we create only CIDs of files ...
@@ -164,6 +164,7 @@ ipfs add -nw --recursive /tmp/test
 ```
 
 <br>
+
 Now, we create files and directories, and only add them to IPFS and do not pin them. 
 They usually will be pinned, i.e., be stored in the local repository permanently.
 Now using ```-r``` instead of ```--recursive```.
@@ -193,7 +194,6 @@ Explore ```testdata``` in the web UI.
 open http://127.0.0.1:5001/ipfs/QmXc9raDM1M5G5fpBnVyQ71vR4gbnskwnB9iMEzBuLgvoZ/#/explore/QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
 ```
 
-
 <br>
 
 Explore ```testdata``` via CLI
@@ -204,6 +204,8 @@ ipfs refs -r --edges QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
 
 ipfs cat QmTnXiAHv2eV3Nx1AwAuifoLFYXwY2HdHjB9atXCp7xXUV
 ```
+
+<br>
 
 Change a file, add it all again, and investigate the changes.
 Now using ```-e``` instead of ```--edges```.
@@ -219,6 +221,8 @@ ipfs ls QmfLbiadyx6z3GkAb5KULbo5J6NJUVGhWCfk34xDmm47mU
 ipfs refs -re QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
 ipfs refs -re QmfLbiadyx6z3GkAb5KULbo5J6NJUVGhWCfk34xDmm47mU
 ```
+
+<br>
 
 Under the hood, we have manipulated DAG objects. We can do this directly via ```ipfs object```.
 
