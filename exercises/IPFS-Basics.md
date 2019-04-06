@@ -24,7 +24,6 @@ ipfs config show
 ipfs id
 ```
 
-<br>
 Parts of the JSON data can be selected individually.
 
 ```
@@ -34,7 +33,6 @@ ipfs config Addresses.API
 
 Let's start IPFS and see some things a running IPFS provides.
 
-<br>
 Start the daemon in the background.
 
 ```
@@ -62,7 +60,7 @@ The CLI requests the API server, if online.
 
 The API server offers a web UI out of the box.
 ```
-open http://127.0.0.1:5001/webui
+http://127.0.0.1:5001/webui
 ```
 
 The web UI is using IPFS, and the URL in the browser has changed and does look like this:
@@ -85,7 +83,7 @@ Open your local gateway and display content from the already open web UI via CID
 
 ```
 ipfs config Addresses.Gateway
-open http://127.0.0.1:8080/ipfs/QmUVmQX9RQpn2iDJ5CKraqGN412UWAmwyvSgqB7bzYovSV
+http://127.0.0.1:8080/ipfs/QmUVmQX9RQpn2iDJ5CKraqGN412UWAmwyvSgqB7bzYovSV
 ```
 
 As well, you can use the link 'View on IPFS Gateway' in the web UI to navigate to the file displayed in a public gateway.
@@ -141,7 +139,6 @@ ipfs refs -re /ipfs/QmchYktXUvYPeNLWu2miVi1TNKTWazFnyDsBo3NufHo87x/
 
 ### Add files and directories
 
-<br>
 First, we create only CIDs of files ...
 
 ```
@@ -191,7 +188,7 @@ ipfs add -r --pin=false .
 Explore ```testdata``` in the web UI.
 
 ```
-open http://127.0.0.1:5001/ipfs/QmXc9raDM1M5G5fpBnVyQ71vR4gbnskwnB9iMEzBuLgvoZ/#/explore/QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
+http://127.0.0.1:5001/ipfs/QmXc9raDM1M5G5fpBnVyQ71vR4gbnskwnB9iMEzBuLgvoZ/#/explore/QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
 ```
 
 <br>
