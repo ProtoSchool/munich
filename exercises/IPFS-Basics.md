@@ -115,12 +115,13 @@ cat /tmp/manifest.json
 To get an impression of the internal reference structure we can use ```ipfs refs```
 
 ```
-ipfs refs -re /ipfs/QmSDgpiHco5yXdyVTfhKxr3aiJ82ynz8V14QcGKicM3rVh
-ipfs refs -re /ipfs/QmSDgpiHco5yXdyVTfhKxr3aiJ82ynz8V14QcGKicM3rVh/static/
+ipfs refs --recursive --edges /ipfs/QmSDgpiHco5yXdyVTfhKxr3aiJ82ynz8V14QcGKicM3rVh
+ipfs refs --recursive --edges /ipfs/QmSDgpiHco5yXdyVTfhKxr3aiJ82ynz8V14QcGKicM3rVh/static/
 ```
 
 <br>
 Explore files and directories again. Now via CIDs directly.
+Now using ```-re``` instead of ```--recursive --edges```.
 
 ```
 ipfs ls -v /ipfs/QmSDgpiHco5yXdyVTfhKxr3aiJ82ynz8V14QcGKicM3rVh
@@ -156,15 +157,14 @@ and directories. Now using ```-n -w``` instead of ```--only-hash --wrap-with-dir
 mkdir /tmp/test
 cp /tmp/manifest*.json /tmp/test
 
-ipfs add -n --recursive /tmp/test
-ipfs add -nw --recursive /tmp/test
+ipfs add -nr /tmp/test
+ipfs add -nwr /tmp/test
 ```
 
 <br>
 
 Now, we create files and directories, and only add them to IPFS and do not pin them. 
 They usually will be pinned, i.e., be stored in the local repository permanently.
-Now using ```-r``` instead of ```--recursive```.
 
 ```
 mkdir testdata
@@ -205,7 +205,6 @@ ipfs cat QmTnXiAHv2eV3Nx1AwAuifoLFYXwY2HdHjB9atXCp7xXUV
 <br>
 
 Change a file, add it all again, and investigate the changes.
-Now using ```-e``` instead of ```--edges```.
 
 ```
 echo "I was changed" > a/d
