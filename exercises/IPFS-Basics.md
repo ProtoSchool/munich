@@ -130,7 +130,7 @@ ipfs ls -v /ipfs/QmWNSMT98yZ2Km1rNUzvGkvCKbZp7PDKi5EFGgL3eA2haH
 ipfs cat /ipfs/QmPKPhRf2FaxEPeYPa1PebmoLLENgHyq7Sd8UJSSVpnti4
 
 ipfs get -o /tmp/manifest2.json /ipfs/QmPKPhRf2FaxEPeYPa1PebmoLLENgHyq7Sd8UJSSVpnti4
-cat /tmp/manifest.json
+cat /tmp/manifest2.json
 
 ipfs refs -re /ipfs/QmSDgpiHco5yXdyVTfhKxr3aiJ82ynz8V14QcGKicM3rVh
 ipfs refs -re /ipfs/QmchYktXUvYPeNLWu2miVi1TNKTWazFnyDsBo3NufHo87x/
