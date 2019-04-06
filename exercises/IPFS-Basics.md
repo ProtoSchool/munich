@@ -119,7 +119,6 @@ ipfs refs --recursive --edges /ipfs/QmSDgpiHco5yXdyVTfhKxr3aiJ82ynz8V14QcGKicM3r
 ipfs refs --recursive --edges /ipfs/QmSDgpiHco5yXdyVTfhKxr3aiJ82ynz8V14QcGKicM3rVh/static/
 ```
 
-<br>
 Explore files and directories again. Now via CIDs directly.
 Now using ```-re``` instead of ```--recursive --edges```.
 
