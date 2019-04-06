@@ -7,12 +7,12 @@ We have to be online for this exercise. So, start the daemon in the background v
 If you have created a file and added it to IPFS, every change of its content changes the CID completely.
 
 ```
-echo "hello world" > testfile.txt
-ipfs add testfile.txt
+echo "hello world" > /tmp/testfile.txt
+ipfs add /tmp/testfile.txt
 ipfs cat QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
 
-echo "Hello world" > testfile.txt
-ipfs add testfile.txt
+echo "Hello world" > /tmp/testfile.txt
+ipfs add /tmp/testfile.txt
 ipfs cat QmePw8gVcBMb8x6kAep6aMBAX23hCSk6iZW3i9VKkiFhu1
 ```
 
@@ -33,8 +33,8 @@ ipfs cat /ipns/<id>
 You do always get the current version and be sure about the originator.
 
 ```
-echo "Hello World - latest version" > testfile.txt
-ipfs add testfile.txt
+echo "Hello World - latest version" > /tmp/testfile.txt
+ipfs add /tmp/testfile.txt
 ipfs cat QmRd4ErbHpTuih7SD9EM3qUqP6u55o4xF9w2x5Cd12pCHu
 
 ipfs cat QmePw8gVcBMb8x6kAep6aMBAX23hCSk6iZW3i9VKkiFhu1
@@ -63,8 +63,8 @@ ipfs key list -l
 Publish now your data with the extra key.
 
 ```
-echo "hello world from 101 workshop" > testfile.txt
-ipfs add testfile.txt
+echo "hello world from 101 workshop" > /tmp/testfile.txt
+ipfs add /tmp/testfile.txt
 ipfs cat QmacF8iBHthXXPxCvJK33cnPXkhhgXVFtzdfP8Jq9iaCep
 
 ipfs name publish --key=101workshop QmacF8iBHthXXPxCvJK33cnPXkhhgXVFtzdfP8Jq9iaCep
@@ -144,9 +144,9 @@ Get shared directory.
 ```
 ipfs get -o ~/IPFS-Workshop-Public /ipns/QmYX4KgNrkX7yuJtNPAUXqMdyyvseFnpHHxNFoAFiw3kF3
 
-open https://gateway.ipfs.io/ipns/QmYX4KgNrkX7yuJtNPAUXqMdyyvseFnpHHxNFoAFiw3kF3
+https://gateway.ipfs.io/ipns/QmYX4KgNrkX7yuJtNPAUXqMdyyvseFnpHHxNFoAFiw3kF3
 
-open http://localhost:8080/ipns/QmYX4KgNrkX7yuJtNPAUXqMdyyvseFnpHHxNFoAFiw3kF3
+http://localhost:8080/ipns/QmYX4KgNrkX7yuJtNPAUXqMdyyvseFnpHHxNFoAFiw3kF3
 ```
 
 <br>
@@ -170,7 +170,7 @@ Get changed directory.
 ```
 ipfs get -o ~/IPFS-Workshop-Public /ipns/QmYX4KgNrkX7yuJtNPAUXqMdyyvseFnpHHxNFoAFiw3kF3
 
-open https://gateway.ipfs.io/ipns/QmYX4KgNrkX7yuJtNPAUXqMdyyvseFnpHHxNFoAFiw3kF3
+https://gateway.ipfs.io/ipns/QmYX4KgNrkX7yuJtNPAUXqMdyyvseFnpHHxNFoAFiw3kF3
 
-open http://localhost:8080/ipns/QmYX4KgNrkX7yuJtNPAUXqMdyyvseFnpHHxNFoAFiw3kF3
+http://localhost:8080/ipns/QmYX4KgNrkX7yuJtNPAUXqMdyyvseFnpHHxNFoAFiw3kF3
 ```

@@ -196,7 +196,7 @@ Explore ```testdata``` via CLI
 
 ```
 ipfs ls QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
-ipfs refs -r --edges QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
+ipfs refs -re QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
 
 ipfs cat QmTnXiAHv2eV3Nx1AwAuifoLFYXwY2HdHjB9atXCp7xXUV
 ```

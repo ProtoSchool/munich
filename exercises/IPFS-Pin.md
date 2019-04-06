@@ -9,8 +9,8 @@ To test this behavior, we can go offline by ```ipfs shutdown```, or we see the i
 Add a file pinned by default.
 
 ```
-echo "hello world" > testfile.txt
-ipfs add testfile.txt
+echo "hello world" > /tmp/testfile.txt
+ipfs add /tmp/testfile.txt
 ipfs pin ls QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
 ipfs cat QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
 ```
@@ -37,8 +37,8 @@ Create a test directory and add it without pinning.
 If you have already done this in a former exercise, skip this step.
 
 ```
-mkdir testdata
-cd testdata
+mkdir /tmp/testdata
+cd /tmp/testdata
 
 for dir in a b c
 do
