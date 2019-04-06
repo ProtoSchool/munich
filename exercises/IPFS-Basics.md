@@ -166,8 +166,8 @@ Now, we create files and directories, and only add them to IPFS and do not pin t
 They usually will be pinned, i.e., be stored in the local repository permanently.
 
 ```
-mkdir testdata
-cd testdata
+mkdir /tmp/testdata
+cd /tmp/testdata
 
 for dir in a b c
 do
