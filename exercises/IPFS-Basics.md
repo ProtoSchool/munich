@@ -208,8 +208,7 @@ Change a file, add it all again, and investigate the changes.
 ```
 echo "I was changed" > a/d
 ipfs add -r --pin=false .
-
-ipfs cat QmepKpiLSnbZFxCvBPcxXSzk4Pfn7JG2yxnLUPLUS7PALo QmevGKHyANXuX91aHqr6C7Tw9Eh9BiiBWt536ndgBAdUij
+ipfs cat QmevGKHyANXuX91aHqr6C7Tw9Eh9BiiBWt536ndgBAdUij
 
 ipfs ls QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
 ipfs ls QmfLbiadyx6z3GkAb5KULbo5J6NJUVGhWCfk34xDmm47mU
