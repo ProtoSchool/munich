@@ -231,5 +231,5 @@ ipfs object stat QmfLbiadyx6z3GkAb5KULbo5J6NJUVGhWCfk34xDmm47mU
 ipfs object diff -v QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM QmfLbiadyx6z3GkAb5KULbo5J6NJUVGhWCfk34xDmm47mU 
 ```
 
-There will be more about Merkle DAG objects and their raw data in another exercise to come.
+There will be more about Merkle DAG objects and their raw data in another exercise to come ([Issue #17](https://github.com/ProtoSchool/munich/issues/17)).
 
