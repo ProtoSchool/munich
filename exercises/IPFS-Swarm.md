@@ -1,5 +1,7 @@
 ### The peers of your swarm
 
+Under the hood, you are connected to other peers, and together you constitute a swarm.
+
 You can display information, like peer id, addresses, or public key, about the peers you are connected.
 
 ```
