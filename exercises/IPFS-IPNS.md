@@ -16,7 +16,6 @@ ipfs add /tmp/testfile.txt
 ipfs cat QmePw8gVcBMb8x6kAep6aMBAX23hCSk6iZW3i9VKkiFhu1
 ```
 
-<br>
 If you publish a file with your default key, the file content is irrelevant to find it. 
 The hash, i.e., CID, of your public key is returned, which, by the way, is the ID of your node.
 
@@ -29,7 +28,6 @@ ipfs name resolve <id>
 ipfs cat /ipns/<id>
 ```
 
-<br>
 You do always get the current version and be sure about the originator.
 
 ```
@@ -50,7 +48,6 @@ ipfs cat /ipns/<id>
 
 For more names and publications, respectively, you can create more keys.
 
-<br>
 Named new keys can be created easily.
 
 ```
@@ -59,7 +56,6 @@ ipfs key gen --type=rsa --size=2048 101workshop
 ipfs key list -l
 ```
 
-<br>
 Publish now your data with the extra key.
 
 ```
@@ -73,15 +69,12 @@ ipfs name resolve Qmeu6YZULFnXvXaL2iDz7gDQQEghuUEu6jzSCSP6VpHC28
 ipfs cat /ipns/Qmeu6YZULFnXvXaL2iDz7gDQQEghuUEu6jzSCSP6VpHC28
 ```
 
-<br>
-
 **Note: IPNS is not permanent.**
 
 <br>
 
 ### Get named keys
 
-<br>
 You can get IDs from other peers you are connected with, and then you can get their public keys.
 
 ```
@@ -89,7 +82,6 @@ ipfs swarm peers
 ipfs id  -f="<pubkey>\n" <peer id>
 ```
 
-<br>
 You can get your private key as well, but be careful.
 
 ```
@@ -98,14 +90,14 @@ cat ~/.ipfs/config | jq ' {PrivKey: .Identity.PrivKey}'
 
 <br>
 
-### Share a public read-write directory
+### Create a public read-write directory to share (optional)
 
-Note: "(optional)" describes the steps for your public read-write directory. 
-Regarding the other steps, you can use an existing directory and the key "publicworkshop." 
-Or you need a second node to share your public read-write directory.
+These tasks describe the steps if you want to create your public read-write directory 
+to share it with other peers. The other peers can be nodes started on the same host.
+You can skip these tasks and use already created key and directory.
 
-<br>
-Create an extra key (optional).
+Firstly, you create an extra key. 
+How you distribute the key then is up to you. For this exercise, we have published it in IPFS.
 
 ```
 ipfs key list
@@ -113,8 +105,7 @@ ipfs key gen --type=rsa --size=2048 <key name>
 ipfs key list
 ```
 
-<br>
-Create a directory and add it to IPFS (optional).
+Now, create a directory and add it to IPFS.
 
 ```
 mkdir IPFS-Workshop-Public
@@ -122,8 +113,7 @@ cd IPFS-Workshop-Public
 ipfs add -r .
 ```
 
-<br>
-Publish directory using private key (optional).
+Finally, you publish the directory using the key.
 
 ```
 ipfs name publish --key=<key name> /ipfs/QmUNLLsPACCz1vLxQVkXqqLX5R1X345qqfHbsf67hvA3Nn
@@ -131,6 +121,15 @@ ipfs ls /ipns/<hash>
 ```
 
 <br>
+
+### Share a public read-write directory
+
+
+But this is already created and published to share.
+The other tasks describe how to share it using the key to encrypt. 
+If you want to test it alone, you need a second node to share your public read-write directory.
+
+
 Get private key "publicworkshop".
 
 ```
@@ -153,7 +152,6 @@ http://localhost:8080/ipns/QmYX4KgNrkX7yuJtNPAUXqMdyyvseFnpHHxNFoAFiw3kF3
 
 ### Play around with other peers
 
-<br>
 Write in shared directory and refresh the publishing.
 
 ```
@@ -164,7 +162,6 @@ ipfs add -r ~/IPFS-Workshop-Public
 ipfs name publish --key=publicworkshop /ipfs/<directory hash>
 ```
 
-<br>
 Get changed directory.
 
 ```
