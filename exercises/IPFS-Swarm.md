@@ -1,15 +1,6 @@
-Start the daemon in the background (if necessary).
-
-```
-ipfs daemon &
-```
-
-<br>
-
 ### The peers of your swarm
 
-<br>
-Show information about the peers you are connected.
+You can display information, like peer id, addresses, or public key, about the peers you are connected.
 
 ```
 ipfs swarm peers
@@ -19,8 +10,7 @@ ipfs swarm addrs
 ipfs id <peer hash>
 ```
 
-<br>
-Disconnect a connected peer and connect again.
+You can explicitly disconnect a connected peer and connect again, or vice versa, if you know the peer id.
 
 ```
 ipfs swarm peers | head -1
@@ -32,8 +22,7 @@ ipfs swarm connect <peer address>
 ipfs swarm peers | grep <peer address>
 ```
 
-<br>
-Ping peer and check out, if a ping connects a disconnected peer.
+You can ping a peer and check out, if a ping connects a disconnected peer again.
 
 ```
 ipfs ping <peer address>
