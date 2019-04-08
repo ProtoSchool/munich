@@ -56,7 +56,6 @@ curl http://127.0.0.1:5001/api/v0/id | jq
 If you have seen the difference between the CLI output before and this one, it is because you were offline. 
 The CLI requests the API server, if online.
 
-<br>
 
 The API server offers a web UI out of the box.
 ```
@@ -182,7 +181,6 @@ find .
 ipfs add -r --pin=false .
 ```
 
-<br>
 
 Explore ```testdata``` in the web UI.
 
@@ -190,7 +188,6 @@ Explore ```testdata``` in the web UI.
 http://127.0.0.1:5001/ipfs/QmXc9raDM1M5G5fpBnVyQ71vR4gbnskwnB9iMEzBuLgvoZ/#/explore/QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
 ```
 
-<br>
 
 Explore ```testdata``` via CLI
 
@@ -201,7 +198,6 @@ ipfs refs -re QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
 ipfs cat QmepKpiLSnbZFxCvBPcxXSzk4Pfn7JG2yxnLUPLUS7PALo
 ```
 
-<br>
 
 Change a file, add it all again, and investigate the changes.
 
@@ -217,7 +213,6 @@ ipfs refs -re QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM
 ipfs refs -re QmfLbiadyx6z3GkAb5KULbo5J6NJUVGhWCfk34xDmm47mU
 ```
 
-<br>
 
 Under the hood, we have manipulated DAG objects. We can do this directly via ```ipfs object```.
 

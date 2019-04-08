@@ -5,7 +5,6 @@ A garbage collection takes place periodically as configured; see: ```ipfs config
 
 To test this behavior, we can go offline by ```ipfs shutdown```, or we see the immediately reload from other IPFS nodes if we make a request.
 
-<br>
 Add a file pinned by default.
 
 ```
@@ -32,7 +31,6 @@ ipfs repo gc
 ipfs cat QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o
 ```
 
-<br>
 Create a test directory and add it without pinning.
 If you have already done this in a former exercise, skip this step.
 
