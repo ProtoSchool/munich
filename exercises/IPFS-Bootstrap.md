@@ -1,7 +1,9 @@
 ### Administrate the bootstrap peers
 
-<br>
-List bootstrap peers and ping them.
+For connecting to other peers, your node has to know one peer, at least.
+Therefore we configure a list of bootstrap peers. 
+
+You can list bootstrap peers and ping them.
 
 ```
 ipfs bootstrap list
@@ -15,8 +17,7 @@ do
 done
 ```
 
-<br>
-Add, remove, save and load bootstrap peers.
+You can add, remove, save and load bootstrap peers.
 
 ```
 ipfs bootstrap add /ip4/139.59.152.171/tcp/4001/ipfs/QmSoLer265NRgSp2LA3dPaeykiS1J6DifTC88f5uVxxxxx
@@ -33,8 +34,7 @@ ipfs bootstrap rm /ip4/139.59.152.171/tcp/4001/ipfs/QmSoLer265NRgSp2LA3dPaeykiS1
 ipfs bootstrap list | grep QmSoLer265NRgSp2LA3dPaeykiS1J6DifTC88f5uVxxxxx
 ```
 
-<br>
-Add default bootstrap peers.
+There are default bootstrap peers which you can add at any time.
 
 ```
 ipfs bootstrap rm all
@@ -44,31 +44,31 @@ ipfs bootstrap add default
 ipfs bootstrap list | grep QmSoLer265NRgSp2LA3dPaeykiS1J6DifTC88f5uVxxxxx
 ```
 
+<br>
+
 ### Create a private network of peers
 
-Stop the daemon, if running.
+Firstly, you have to stop the daemon, if running.
 
 ```
 ipfs shutdown
 ```
 
-<br>
-Remove all bootstrap peers and start the daemon.
+Then, you remove all bootstrap peers and start the daemon again.
 
 ```
 ipfs bootstrap rm all
 ipfs daemon &
 ```
 
-<br>
-Choose address of one peer as bootstrap peer for another.
+Now, you have a bootstrap peer for a private network.
+You choose an address of the bootstrap peer for other peers' configuration.
 
 ```
 ipfs id -f="<addrs>\n"
 ```
 
-<br>
-Add address of one peer as bootstrap peer of another.
+This address you add as bootstrap peer to other peers.
 
 ```
 ipfs bootstrap add <multiaddr>/<peerID>
