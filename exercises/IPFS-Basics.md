@@ -226,5 +226,13 @@ ipfs object stat QmfLbiadyx6z3GkAb5KULbo5J6NJUVGhWCfk34xDmm47mU
 ipfs object diff -v QmScbQs6aEU5sL7RuapUPVbqRTym8WpdRbgjCPnhdLH4LM QmfLbiadyx6z3GkAb5KULbo5J6NJUVGhWCfk34xDmm47mU 
 ```
 
+Note: `ipfs dag` is currently an experimental feature, but it is intended to deprecate and replace the existing `ipfs object` command moving forward.
+
+```
+ipfs dag get QmevGKHyANXuX91aHqr6C7Tw9Eh9BiiBWt536ndgBAdUij | jq
+
+ipfs dag get QmfLbiadyx6z3GkAb5KULbo5J6NJUVGhWCfk34xDmm47mU | jq
+```
+
 There will be more about Merkle DAG objects and their raw data in another exercise to come ([Issue #17](https://github.com/ProtoSchool/munich/issues/17)).
 
